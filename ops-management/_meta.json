@@ -10,17 +10,17 @@
       },
       {
         "type": "custom-link",
-        "label": "Переменные и ключи",
+        "label": "Переменные и секреты",
         "link": "/ops-management/variables-and-secrets"
       },
       {
         "type": "custom-link",
-        "label": "Управление резервными копиями",
+        "label": "Менеджер резервного копирования",
         "link": "/ops-management/backup-manager"
       },
       {
         "type": "custom-link",
-        "label": "Управление миграциями",
+        "label": "Менеджер миграций",
         "link": "/ops-management/migration-manager"
       }
     ]

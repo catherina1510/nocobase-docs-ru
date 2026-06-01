@@ -1,14 +1,12 @@
 ---
-displayName: "Блок: Канбан"
+displayName: "Блок: канбан"
 packageName: '@nocobase/plugin-kanban'
 description: |
-  Предоставляет блок Канбан.
+  Предоставляет канбан-блок.
 isFree: true
 builtIn: true
 defaultEnabled: false
+editionLevel: 0
 ---
-:::tip Уведомление о переводе ИИ
-Эта документация была автоматически переведена ИИ.
-:::
 
-# Блок: Канбан
+# Блок: канбан

@@ -5,14 +5,11 @@ supportedVersions:
   - 1.x
   - 2.x
 description: |
-  Используйте внешние источники данных REST API.
+  Внешние источники данных на базе REST API.
 isFree: false
 builtIn: false
 defaultEnabled: false
-points: 4
+editionLevel: 1
 ---
-:::tip Уведомление о переводе ИИ
-Эта документация была автоматически переведена ИИ.
-:::
 
 # Источник данных: REST API

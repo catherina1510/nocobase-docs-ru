@@ -1,0 +1,18 @@
+[
+  {
+    "type": "custom-link",
+    "label": "Образцы плагинов",
+    "items": [
+      {
+        "type": "custom-link",
+        "label": "Обзор",
+        "link": "/plugin-samples"
+      },
+      {
+        "type": "custom-link",
+        "label": "Инициализатор схемы",
+        "link": "/plugin-samples/schema-initializer"
+      }
+    ]
+  }
+]

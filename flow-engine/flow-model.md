@@ -1,10 +1,6 @@
-:::tip Уведомление о переводе ИИ
-Эта документация была автоматически переведена ИИ.
-:::
+# Начало работы с моделью потока
 
-# Начало работы с FlowModel
-
-## Создание собственного FlowModel
+## Пользовательская модель потока (FlowModel)
 
 ```tsx pure
 class HelloModel extends FlowModel {
@@ -19,15 +15,15 @@ class HelloModel extends FlowModel {
 }
 ```
 
-## Доступные базовые классы FlowModel
+## Доступные базовые классы модели потока (FlowModel)
 
-| Базовый класс           | Описание                                  |
-| ----------------------- | ----------------------------------------- |
-| `BlockModel`            | Базовый класс для всех блоков             |
-| `CollectionBlockModel`  | Блок коллекции, наследуется от BlockModel |
-| `ActionModel`           | Базовый класс для всех действий           |
+| Имя базового класса | Описание |
+| ------------------- | -------- |
+| `BlockModel` | Базовый класс для всех блоков |
+| `CollectionBlockModel` | Блок коллекции, наследуется от `BlockModel` |
+| `ActionModel` | Базовый класс для всех действий |
 
-## Регистрация FlowModel
+## Регистрация модели потока
 
 ```ts
 export class PluginHelloClient extends Plugin {
@@ -37,7 +33,7 @@ export class PluginHelloClient extends Plugin {
 }
 ```
 
-## Отображение FlowModel
+## Рендеринг модели потока
 
 ```tsx pure
 <FlowModelRenderer model={model} />

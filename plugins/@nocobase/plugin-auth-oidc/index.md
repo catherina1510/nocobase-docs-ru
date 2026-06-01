@@ -5,14 +5,11 @@ supportedVersions:
   - 1.x
   - 2.x
 description: |
-  Аутентификация по протоколу OIDC (OpenID Connect).
+  Аутентификация по OIDC.
 isFree: false
 builtIn: false
 defaultEnabled: false
-points: 2
+editionLevel: 2
 ---
-:::tip Уведомление о переводе ИИ
-Эта документация была автоматически переведена ИИ.
-:::
 
 # Аутентификация: OIDC

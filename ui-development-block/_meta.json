@@ -10,9 +10,10 @@
       },
       {
         "type": "custom-link",
-        "label": "Создание плагина блока",
+        "label": "написание плагина блока",
         "link": "/ui-development-block/write-a-block-plugin"
       }
     ]
   }
 ]
+

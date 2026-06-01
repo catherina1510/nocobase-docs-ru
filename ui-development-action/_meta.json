@@ -1,16 +1,16 @@
 [
   {
     "type": "custom-link",
-    "label": "Быстрый старт",
+    "label": "Быстрый старт (Quick Start)",
     "items": [
       {
         "type": "custom-link",
-        "label": "Введение",
+        "label": "Введение (Introduction)",
         "link": "/ui-development-action"
       },
       {
         "type": "custom-link",
-        "label": "Создание плагина действия",
+        "label": "Написать плагин действия (Write an Action Plugin)",
         "link": "/ui-development-action/write-an-action-plugin"
       }
     ]

@@ -1,8 +1,4 @@
-:::tip Уведомление о переводе ИИ
-Эта документация была автоматически переведена ИИ.
-:::
-
-# AppCommand
+# AppCommand - Команда приложения
 
 Реализовано на основе [commander](https://www.npmjs.com/package/commander).
 
