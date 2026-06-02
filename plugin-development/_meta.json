@@ -10,12 +10,12 @@
       },
       {
         "type": "custom-link",
-        "label": "Создание первого плагина",
+        "label": "Напишите свой первый плагин",
         "link": "/plugin-development/write-your-first-plugin"
       },
       {
         "type": "custom-link",
-        "label": "Структура каталогов проекта",
+        "label": "Структура проекта",
         "link": "/plugin-development/project-structure"
       }
     ]
@@ -36,27 +36,27 @@
       },
       {
         "type": "custom-link",
-        "label": "Коллекции (таблицы данных)",
+        "label": "Коллекции",
         "link": "/plugin-development/server/collections"
       },
       {
         "type": "custom-link",
-        "label": "Операции с базой данных",
+        "label": "База данных (Database)",
         "link": "/plugin-development/server/database"
       },
       {
         "type": "custom-link",
-        "label": "Управление источниками данных (DataSourceManager)",
+        "label": "Менеджер источников данных (DataSourceManager)",
         "link": "/plugin-development/server/data-source-manager"
       },
       {
         "type": "custom-link",
-        "label": "Управление ресурсами (ResourceManager)",
+        "label": "Менеджер ресурсов (ResourceManager)",
         "link": "/plugin-development/server/resource-manager"
       },
       {
         "type": "custom-link",
-        "label": "Контроль доступа (ACL)",
+        "label": "Список управления доступом (ACL)",
         "link": "/plugin-development/server/acl"
       },
       {
@@ -66,42 +66,47 @@
       },
       {
         "type": "custom-link",
-        "label": "Кэш",
+        "label": "Кэш (Cache)",
         "link": "/plugin-development/server/cache"
       },
       {
         "type": "custom-link",
-        "label": "Событие",
+        "label": "События",
         "link": "/plugin-development/server/event"
       },
       {
         "type": "custom-link",
-        "label": "Контекст запроса",
+        "label": "Контекст",
         "link": "/plugin-development/server/context"
       },
       {
         "type": "custom-link",
-        "label": "Миграции",
+        "label": "Миграция",
         "link": "/plugin-development/server/migration"
       },
       {
         "type": "custom-link",
-        "label": "Логгер",
+        "label": "Логирование",
         "link": "/plugin-development/server/logger"
       },
       {
         "type": "custom-link",
-        "label": "Интернационализация (I18n)",
+        "label": "Телеметрия",
+        "link": "/plugin-development/server/telemetry"
+      },
+      {
+        "type": "custom-link",
+        "label": "Интернационализация (i18n)",
         "link": "/plugin-development/server/i18n"
       },
       {
         "type": "custom-link",
-        "label": "Командная строка",
+        "label": "Команда",
         "link": "/plugin-development/server/command"
       },
       {
         "type": "custom-link",
-        "label": "Управление задачами Cron (CronJobManager)",
+        "label": "Менеджер cron-задач",
         "link": "/plugin-development/server/cron-job-manager"
       },
       {
@@ -132,7 +137,7 @@
       },
       {
         "type": "custom-link",
-        "label": "Маршрутизатор",
+        "label": "Маршрутизация",
         "link": "/plugin-development/client/router"
       },
       {
@@ -142,7 +147,7 @@
       },
       {
         "type": "custom-link",
-        "label": "Управление источниками данных (DataSourceManager)",
+        "label": "Менеджер источников данныхы",
         "link": "/plugin-development/client/data-source-manager"
       },
       {
@@ -152,7 +157,7 @@
       },
       {
         "type": "custom-link",
-        "label": "Запрос",
+        "label": "Запросы",
         "link": "/plugin-development/client/request"
       },
       {
@@ -162,7 +167,7 @@
       },
       {
         "type": "custom-link",
-        "label": "Логгер",
+        "label": "Логирование",
         "link": "/plugin-development/client/logger"
       },
       {

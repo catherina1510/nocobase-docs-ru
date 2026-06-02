@@ -1,10 +1,6 @@
-:::tip Уведомление о переводе ИИ
-Эта документация была автоматически переведена ИИ.
-:::
-
 # Стили и темы
 
-Чтобы лучше адаптироваться к возможностям динамических тем NocoBase, в плагинах рекомендуется использовать [antd-style](https://ant-design.github.io/antd-style/zh-CN/guide) для написания стилей. Это позволяет использовать существующие [токены темы](https://ant.design/docs/react/customize-theme-cn#seedtoken) для управления динамическими возможностями тем. Кроме того, NocoBase предлагает [плагин Редактор тем](#) для удобной настройки стилей.
+Чтобы лучше адаптироваться к возможностям динамических тем NocoBase, в плагинах рекомендуется использовать [antd-style](https://ant-design.github.io/antd-style/guide) для написания стилей. Его можно комбинировать с существующими [токенами темы](https://ant.design/docs/react/customize-theme#seedtoken), чтобы поддерживать динамику тем. NocoBase также предоставляет [плагин редактора тем](#) для удобной настройки стилей.
 
 ## Написание стилей
 
@@ -14,7 +10,7 @@
 import { createStyles } from 'antd-style';
 
 const useStyles = createStyles(({ token, css }) => ({
-  // Поддерживает синтаксис CSS-объектов
+  // Поддерживается синтаксис css-объекта
   container: {
     backgroundColor: token.colorBgLayout,
     borderRadius: token.borderRadiusLG,
@@ -28,7 +24,7 @@ const useStyles = createStyles(({ token, css }) => ({
     marginLeft: 'auto',
     marginRight: 'auto',
   },
-  // Также поддерживает строковые шаблоны CSS для единообразного написания стилей, как в обычном CSS.
+  // Также поддерживаются строковые шаблоны css для привычного стиля написания, как в обычном css
   card: css`
     color: ${token.colorTextTertiary};
     box-shadow: ${token.boxShadow};
@@ -48,11 +44,11 @@ const useStyles = createStyles(({ token, css }) => ({
 }));
 
 export default () => {
-  // Объект styles по умолчанию кэшируется в методе useStyles, поэтому не беспокойтесь о проблемах с повторным рендерингом.
+  // Объект styles по умолчанию кэшируется в методе useStyles, поэтому проблем с повторным рендером не будет
   const { styles, cx, theme } = useStyles();
 
   return (
-    // Используйте cx для организации className
+    // Используйте cx для объединения className
     <div
       className={cx('a-simple-create-style-demo-classname', styles.container)}
     >
@@ -64,7 +60,7 @@ export default () => {
 };
 ```
 
-Подробное описание использования см. в [API createStyles](https://ant-design.github.io/antd-style/zh-CN/api/create-styles).
+Подробнее см. [API createStyles](https://ant-design.github.io/antd-style/api/create-styles)
 
 ### Использование createStylish для создания переиспользуемых стилей
 
@@ -123,7 +119,7 @@ const useStylish = createStylish(({ token, css }) => {
 });
 
 const useStyles = createStyles({
-  // Поддерживает синтаксис CSS-объектов
+  // Поддерживается синтаксис css-объекта
   container: {
     backgroundColor: '#f5f5f5',
     maxWidth: 400,
@@ -133,7 +129,7 @@ const useStyles = createStyles({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  // Также поддерживает строковые шаблоны CSS для единообразного написания стилей, как в обычном CSS.
+  // Также поддерживаются строковые шаблоны css для привычного стиля написания, как в обычном css
   btn: css`
     padding: 24px;
   `,
@@ -146,14 +142,14 @@ export default () => {
   return (
     <div className={styles.container}>
       <div className={cx(styles.btn, stylish.defaultButton)}>
-        stylish Button
+        stylish-кнопка
       </div>
     </div>
   );
 };
 ```
 
-Подробное описание использования см. в [API createStylish](https://ant-design.github.io/antd-style/zh-CN/api/create-stylish).
+Подробнее см. [API createStylish](https://ant-design.github.io/antd-style/api/create-stylish)
 
 ### Использование createGlobalStyle для внедрения глобальных стилей
 
@@ -170,19 +166,19 @@ export default () => {
   return (
     <div>
       <Global />
-      <div className="some-class">Текст с глобальными стилями</div>
+      <div className="some-class">Текст с глобальным стилем</div>
     </div>
   );
 };
 ```
 
-Подробное описание использования см. в [API createGlobalStyle](https://ant-design.github.io/antd-style/zh-CN/api/global-styles).
+Подробнее см. [API createGlobalStyle](https://ant-design.github.io/antd-style/api/global-styles)
 
 ## Настройка тем
 
-### Использование токенов темы antd
+### Использование токенов темы из antd
 
-Пример createStyles
+Пример `createStyles`
 
 ```tsx
 import { SmileOutlined } from '@ant-design/icons';
@@ -222,11 +218,11 @@ const App = () => {
     <div className={styles.container}>
       <Space direction={'vertical'} style={{ width: '100%' }} size={16}>
         <Space>
-          <Button title={'Описание функциональной кнопки'} icon={<SmileOutlined />} />
-          Кнопка действия
+          <Button title={'Description for the function button'} icon={<SmileOutlined />} />
+          Action button
         </Space>
-        <div className={styles.defaultCard}>Обычная карточка</div>
-        <div className={styles.primaryCard}>Основная карточка</div>
+        <div className={styles.defaultCard}>Default card</div>
+        <div className={styles.primaryCard}>Primary card</div>
       </Space>
     </div>
   );
@@ -235,7 +231,7 @@ const App = () => {
 export default App;
 ```
 
-Пример createGlobalStyle
+Пример `createGlobalStyle`
 
 ```tsx
 import { createGlobalStyle, ThemeProvider } from 'antd-style';
@@ -267,7 +263,7 @@ export default () => {
   return (
     <ThemeProvider>
       <Global />
-      <button className="ant-custom-button">Кнопка, отсутствующая в antd</button>
+      <button className="ant-custom-button">Кнопка, которой нет в Ant Design</button>
     </ThemeProvider>
   );
 };
@@ -275,6 +271,7 @@ export default () => {
 
 ## Отладка тем
 
-### Использование плагина Редактор тем
+### Использование плагина редактора тем
 
 ![Редактор тем](https://static-docs.nocobase.com/440f844d056a485f9f0dc64a8ca1b4f4.png)
+

@@ -1,0 +1,32 @@
+[
+  {
+    "type": "custom-link",
+    "label": "Системные настройки",
+    "link": "/system-settings/"
+  },
+  {
+    "type": "custom-link",
+    "label": "Менеджер плагинов",
+    "link": "/system-settings/plugin-manager/"
+  },
+  {
+    "type": "custom-link",
+    "label": "Языковые настройки",
+    "link": "/system-settings/language-settings/"
+  },
+  {
+    "type": "custom-link",
+    "label": "Управление локализацией",
+    "link": "/system-settings/localization-management/"
+  },
+  {
+    "type": "custom-link",
+    "label": "Пользовательский бренд",
+    "link": "/system-settings/custom-brand/"
+  },
+  {
+    "type": "custom-link",
+    "label": "Редактор темы",
+    "link": "/system-settings/theme-editor/"
+  }
+]

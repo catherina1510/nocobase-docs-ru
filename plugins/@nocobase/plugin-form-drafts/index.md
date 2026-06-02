@@ -4,14 +4,11 @@ packageName: '@nocobase/plugin-form-drafts'
 supportedVersions:
   - 2.x
 description: |
-  Позволяет сохранять черновики форм во время заполнения, чтобы продолжить редактирование и отправку позже.
-isFree: false
-builtIn: false
+  Позволяет пользователям сохранять черновики форм и продолжить редактирование позже.
+isFree: true
+builtIn: true
 defaultEnabled: false
-points: 2
+editionLevel: 0
 ---
-:::tip Уведомление о переводе ИИ
-Эта документация была автоматически переведена ИИ.
-:::
 
 # Черновики форм

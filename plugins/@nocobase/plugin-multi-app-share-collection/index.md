@@ -1,5 +1,5 @@
 ---
-displayName: "Общие коллекции между приложениями"
+displayName: "Общая коллекция между приложениями"
 packageName: '@nocobase/plugin-multi-app-share-collection'
 description: |
   
@@ -7,12 +7,9 @@ isFree: true
 builtIn: true
 defaultEnabled: false
 deprecated: true
+editionLevel: 0
 ---
-:::tip Уведомление о переводе ИИ
-Эта документация была автоматически переведена ИИ.
-:::
 
+# Общая коллекция между приложениями
 
-# Общие коллекции между приложениями
-
-> Обратите внимание: этот плагин устарел (deprecated).
+> Примечание: этот плагин устарел.

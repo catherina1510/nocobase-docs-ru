@@ -1,14 +1,12 @@
 ---
-displayName: "Поле коллекции: Вложение (URL)"
+displayName: "Поле коллекции: вложение (URL)"
 packageName: '@nocobase/plugin-field-attachment-url'
 description: |
-  Поддерживает вложения в формате URL.
+  Вложения в виде URL.
 isFree: true
 builtIn: true
 defaultEnabled: false
+editionLevel: 0
 ---
-:::tip Уведомление о переводе ИИ
-Эта документация была автоматически переведена ИИ.
-:::
 
-# Поле коллекции: Вложение (URL)
+# Поле коллекции: вложение (URL)

@@ -1,14 +1,12 @@
 ---
-displayName: "Блок: Диаграмма Ганта"
+displayName: "Блок: диаграмма Ганта"
 packageName: '@nocobase/plugin-gantt'
 description: |
   Предоставляет блок диаграммы Ганта.
 isFree: true
 builtIn: true
 defaultEnabled: false
+editionLevel: 0
 ---
-:::tip Уведомление о переводе ИИ
-Эта документация была автоматически переведена ИИ.
-:::
 
-# Блок: Диаграмма Ганта
+# Блок: диаграмма Ганта

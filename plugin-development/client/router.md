@@ -1,22 +1,18 @@
-:::tip Уведомление о переводе ИИ
-Эта документация была автоматически переведена ИИ.
-:::
+# Маршрутизация
 
-# Роутер
-
-Клиент NocoBase предоставляет гибкий менеджер маршрутизации, который позволяет расширять страницы и страницы настроек плагинов с помощью `router.add()` и `pluginSettingsRouter.add()`.
+Клиент NocoBase предоставляет гибкий менеджер маршрутов, который поддерживает расширение обычных страниц и страниц настроек плагинов через `router.add()` и `pluginSettingsRouter.add()`.
 
 ## Зарегистрированные маршруты страниц по умолчанию
 
-| Название           | Путь               | Компонент                | Описание                      |
-| :----------------- | :----------------- | :----------------------- | :---------------------------- |
-| admin              | /admin/\*          | AdminLayout              | Страницы административной панели |
-| admin.page         | /admin/:name       | AdminDynamicPage         | Динамически создаваемые страницы |
-| admin.settings     | /admin/settings/\* | AdminSettingsLayout      | Страницы настроек плагинов    |
+| Имя           | Путь              | Компонент           | Описание |
+| ------------- | ----------------- | ------------------- | -------- |
+| admin          | /admin/\*         | AdminLayout         | Страницы админ-панели |
+| admin.page     | /admin/:name      | AdminDynamicPage    | Динамически создаваемые страницы |
+| admin.settings | /admin/settings/\* | AdminSettingsLayout | Страницы настроек плагинов |
 
 ## Расширение обычных страниц
 
-Добавляйте маршруты обычных страниц с помощью `router.add()`.
+Добавьте маршруты обычных страниц через `router.add()`.
 
 ```tsx
 import React from 'react';
@@ -52,7 +48,7 @@ const app = new Application({
 export default app.getRootComponent();
 ```
 
-Поддерживает динамические параметры
+Поддерживаются динамические параметры
 
 ```tsx
 this.router.add('root.user', {
@@ -61,9 +57,9 @@ this.router.add('root.user', {
 });
 ```
 
-## Расширение страниц настроек плагинов
+## Расширение страниц настроек плагина
 
-Добавляйте страницы настроек плагинов с помощью `pluginSettingsRouter.add()`.
+Добавьте страницы настроек плагина через `pluginSettingsRouter.add()`.
 
 ```tsx
 import { Plugin } from '@nocobase/client';
@@ -75,7 +71,7 @@ export class HelloPlugin extends Plugin {
   async load() {
     this.pluginSettingsRouter.add('hello', {
       title: 'Hello', // Заголовок страницы настроек
-      icon: 'ApiOutlined', // Иконка меню страницы настроек
+      icon: 'ApiOutlined', // Иконка пункта меню страницы настроек
       Component: HelloSettingPage,
     });
   }
@@ -111,3 +107,4 @@ class HelloPlugin extends Plugin {
   }
 }
 ```
+

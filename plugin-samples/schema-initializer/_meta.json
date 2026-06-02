@@ -1,0 +1,60 @@
+[
+  {
+    "type": "custom-link",
+    "label": "Обзор",
+    "items": [
+      {
+        "type": "custom-link",
+        "label": "Введение",
+        "link": "/plugin-samples/schema-initializer"
+      }
+    ]
+  },
+  {
+    "type": "custom-link",
+    "label": "Добавление элементов в существующий инициализатор",
+    "items": [
+      {
+        "type": "custom-link",
+        "label": "Добавление нового простого блока",
+        "link": "/plugin-samples/schema-initializer/block-simple"
+      },
+      {
+        "type": "custom-link",
+        "label": "Добавление блока данных",
+        "link": "/plugin-samples/schema-initializer/block-data"
+      },
+      {
+        "type": "custom-link",
+        "label": "Добавление блока данных с помощью модального окна",
+        "link": "/plugin-samples/schema-initializer/block-data-modal"
+      },
+      {
+        "type": "custom-link",
+        "label": "Добавление простое действие",
+        "link": "/plugin-samples/schema-initializer/action-simple"
+      },
+      {
+        "type": "custom-link",
+        "label": "Добавление действия с помощью модального окна",
+        "link": "/plugin-samples/schema-initializer/action-modal"
+      }
+    ]
+  },
+  {
+    "type": "custom-link",
+    "label": "Создание нового инициализатора",
+    "items": [
+      {
+        "type": "custom-link",
+        "label": "Встроенный инициализатор в блоке — настройка полей",
+        "link": "/plugin-samples/schema-initializer/configure-fields"
+      },
+      {
+        "type": "custom-link",
+        "label": "Встроенный инициализатор в блоке — настройка действий",
+        "link": "/plugin-samples/schema-initializer/configure-actions"
+      }
+    ]
+  }
+]

@@ -5,12 +5,12 @@
     "items": [
       {
         "type": "custom-link",
-        "label": "Что такое FlowEngine?",
+        "label": "Что такое движок потоков?",
         "link": "/flow-engine/what-is-flow-engine"
       },
       {
         "type": "custom-link",
-        "label": "Связь FlowEngine и плагинов",
+        "label": "Плагины движка потоков",
         "link": "/flow-engine/flow-engine-and-plugins"
       },
       {
@@ -20,48 +20,48 @@
       },
       {
         "type": "custom-link",
-        "label": "План обучения",
+        "label": "Дорожная карта обучения",
         "link": "/flow-engine/learning-roadmap"
       }
     ]
   },
   {
     "type": "custom-link",
-    "label": "Руководство",
+    "label": "Руководства",
     "items": [
       {
         "type": "custom-link",
-        "label": "Регистрация FlowModel",
+        "label": "Регистрация модели потока",
         "link": "/flow-engine/register-flow-model"
       },
       {
         "type": "custom-link",
-        "label": "Создание FlowModel",
+        "label": "Создание модели потока",
         "link": "/flow-engine/create-flow-model"
       },
       {
         "type": "custom-link",
-        "label": "Рендеринг FlowModel",
+        "label": "Рендеринг модели потока",
         "link": "/flow-engine/flow-model-renderer"
       },
       {
         "type": "custom-link",
-        "label": "Поток событий и конфигурация FlowModel",
+        "label": "Поток событий и конфигурация модели потока",
         "link": "/flow-engine/flow-model-settings"
       },
       {
         "type": "custom-link",
-        "label": "Персистентность FlowModel",
+        "label": "Персистентность модели потока",
         "link": "/flow-engine/flow-model-repository"
       },
       {
         "type": "custom-link",
-        "label": "Жизненный цикл FlowModel",
+        "label": "Жизненный цикл модели потока",
         "link": "/flow-engine/flow-model-lifecycle"
       },
       {
         "type": "custom-link",
-        "label": "Система контекста FlowModel",
+        "label": "Система контекста модели потока",
         "link": "/flow-engine/flow-context"
       },
       {
@@ -71,7 +71,7 @@
       },
       {
         "type": "custom-link",
-        "label": "FlowModel vs React.Component",
+        "label": "Сравнение модели потока и React.Component",
         "link": "/flow-engine/flow-model-vs-react-component"
       }
     ]
@@ -82,27 +82,27 @@
     "items": [
       {
         "type": "custom-link",
-        "label": "ModelDefinition",
+        "label": "Определение модели",
         "link": "/flow-engine/definitions/model-definition"
       },
       {
         "type": "custom-link",
-        "label": "FlowDefinition",
+        "label": "Определение потока",
         "link": "/flow-engine/definitions/flow-definition"
       },
       {
         "type": "custom-link",
-        "label": "EventDefinition",
+        "label": "Определение события",
         "link": "/flow-engine/definitions/event-definition"
       },
       {
         "type": "custom-link",
-        "label": "ActionDefinition",
+        "label": "Определение действия",
         "link": "/flow-engine/definitions/action-definition"
       },
       {
         "type": "custom-link",
-        "label": "StepDefinition",
+        "label": "Определение шага",
         "link": "/flow-engine/definitions/step-definition"
       }
     ]
